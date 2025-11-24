@@ -1,12 +1,26 @@
+---
+argument-hint: [optional-feature-path]
+---
+
 # Review Project Structure
 
 Audit the current project's folder structure against Cloud Lobsters team standards.
+
+**Usage:**
+- `/review-structure` - Review entire project structure
+- `/review-structure src/routes/dashboard/claims` - Review specific feature
+
+**Arguments:**
+- `$1` (optional): Specific path to review (e.g., `src/routes/dashboard/claims`)
+  - If not provided, reviews entire `src/routes/dashboard/` directory
 
 ---
 
 ## Your Task
 
 Review the project structure and identify any violations of the team's folder structure standards defined in [`docs/standards/folder-structure.md`](../docs/standards/folder-structure.md).
+
+**Target Path:** ${1:-src/routes/dashboard}
 
 ---
 
