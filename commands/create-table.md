@@ -5,12 +5,17 @@ Create a new table component with **TanStack Table Core** following the team's t
 ## Instructions
 
 First, ask the user for:
-1. **Table purpose** (what data is being displayed? e.g., "Claims list", "Users table")
-2. **Data source** (database table name or API endpoint)
-3. **Columns** (what columns to display with their types)
-4. **Filters needed** (global search, status filters, date range, etc.)
-5. **Pagination** (client-side or server-side? usually client-side for < 10k rows)
-6. **Location** (e.g., `src/routes/dashboard/claims/+page.svelte`)
+1. **Table type** - Ask: "Should this use vanilla HTML `<table>` with TanStack Table Core, or shadcn table components?"
+   - **Vanilla HTML**: Simpler, more direct control, better performance
+   - **shadcn components**: Consistent styling with rest of app, pre-styled
+2. **Table purpose** (what data is being displayed? e.g., "Claims list", "Users table")
+3. **Data source** (database table name or API endpoint)
+4. **Columns** (what columns to display with their types)
+5. **Filters needed** (global search, status filters, date range, etc.)
+6. **Pagination** (client-side or server-side? usually client-side for < 10k rows)
+7. **Location** (e.g., `src/routes/dashboard/claims/+page.svelte`)
+
+**Reference**: For detailed implementation patterns, see [`docs/reference/tanstack-table-implementation.md`](../docs/reference/tanstack-table-implementation.md)
 
 Then follow these steps:
 

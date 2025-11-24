@@ -180,6 +180,7 @@ Located in [`docs/reference/`](docs/reference/):
 
 - **Svelte 5** - [`docs/reference/svelte-5/migration-guide.md`](docs/reference/svelte-5/migration-guide.md)
 - **Svelte MCP Server** - [`docs/reference/svelte-mcp-server.md`](docs/reference/svelte-mcp-server.md) (How to use MCP tools)
+- **TanStack Table Implementation** - [`docs/reference/tanstack-table-implementation.md`](docs/reference/tanstack-table-implementation.md) (Complete implementation guide)
 - **shadcn-svelte** - [`docs/reference/shadcn-svelte/`](docs/reference/shadcn-svelte/) (54 component docs)
 - **Superforms** - [`docs/reference/superform/`](docs/reference/superform/) (17 guides)
 - **TanStack Tables** - [`docs/reference/tanstack-tables/`](docs/reference/tanstack-tables/) (70 API docs)
@@ -188,6 +189,7 @@ Located in [`docs/reference/`](docs/reference/):
 Located in [`docs/standards/`](docs/standards/):
 
 - **Folder Structure** - [`docs/standards/folder-structure.md`](docs/standards/folder-structure.md) (Project structure standards)
+- **Implementation Rules** - [`docs/standards/implementation-rules.md`](docs/standards/implementation-rules.md) (Critical verification rules)
 
 ### Agents
 Located in [`agents/`](agents/):
