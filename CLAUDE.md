@@ -20,6 +20,9 @@ Workflow shortcuts available via `/` prefix in Claude Code:
 - **`/review-component`** - Review component against team patterns
   - See: [`commands/review-component.md`](commands/review-component.md)
 
+- **`/review-structure`** - Audit project folder structure against team standards
+  - See: [`commands/review-structure.md`](commands/review-structure.md)
+
 ---
 
 ## Component Patterns
@@ -83,7 +86,7 @@ Use SvelteKit Superforms for type-safe form handling with validation.
 
 ### Runes (Always Use)
 - ✅ `$state()` for reactive state
-- ✅ `$derived()` for computed values
+- ✅ `$derived()` for computed values - **IMPORTANT**: When using `$derived`, the value must be accessed as a function: `const value = $derived(otherValue); console.log(value())`
 - ✅ `$effect()` for side effects
 - ✅ `$props()` for component props
 - ❌ NEVER use `export let` (Svelte 4 syntax)
@@ -140,6 +143,17 @@ Use SvelteKit Superforms for type-safe form handling with validation.
 
 ## Architecture Patterns
 
+### Folder Structure
+All projects must follow the standard folder structure defined in [`docs/standards/folder-structure.md`](docs/standards/folder-structure.md).
+
+**Key Requirements:**
+- Feature routes must have `components/` folder
+- Modals use centralized state in `components/modals/modal-state.svelte.ts`
+- Use standard folder names: `components/`, `stores/`, `utils/`, `api/`
+- Use `kebab-case` for all file names
+
+**Enforcement**: Use `/review-structure` command to audit projects
+
 ### SvelteKit Routing
 - Use `+page.svelte` for pages
 - Use `+page.server.ts` for server-side data loading
@@ -165,9 +179,15 @@ Use SvelteKit Superforms for type-safe form handling with validation.
 Located in [`docs/reference/`](docs/reference/):
 
 - **Svelte 5** - [`docs/reference/svelte-5/migration-guide.md`](docs/reference/svelte-5/migration-guide.md)
+- **Svelte MCP Server** - [`docs/reference/svelte-mcp-server.md`](docs/reference/svelte-mcp-server.md) (How to use MCP tools)
 - **shadcn-svelte** - [`docs/reference/shadcn-svelte/`](docs/reference/shadcn-svelte/) (54 component docs)
 - **Superforms** - [`docs/reference/superform/`](docs/reference/superform/) (17 guides)
 - **TanStack Tables** - [`docs/reference/tanstack-tables/`](docs/reference/tanstack-tables/) (70 API docs)
+
+### Standards Documentation
+Located in [`docs/standards/`](docs/standards/):
+
+- **Folder Structure** - [`docs/standards/folder-structure.md`](docs/standards/folder-structure.md) (Project structure standards)
 
 ### Agents
 Located in [`agents/`](agents/):
