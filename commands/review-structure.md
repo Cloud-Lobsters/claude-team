@@ -7,12 +7,14 @@ argument-hint: [optional-feature-path]
 Audit the current project's folder structure against Cloud Lobsters team standards.
 
 **Usage:**
+
 - `/review-structure` - Review entire project structure
 - `/review-structure src/routes/dashboard/claims` - Review specific feature
 
 **Arguments:**
+
 - `$1` (optional): Specific path to review (e.g., `src/routes/dashboard/claims`)
-  - If not provided, reviews entire `src/routes/dashboard/` directory
+  - If not provided, reviews entire `src/routes/` directory
 
 ---
 
@@ -20,7 +22,7 @@ Audit the current project's folder structure against Cloud Lobsters team standar
 
 Review the project structure and identify any violations of the team's folder structure standards defined in [`docs/standards/folder-structure.md`](../docs/standards/folder-structure.md).
 
-**Target Path:** ${1:-src/routes/dashboard}
+**Target Path:** \${1:-src/routes/dashboard}
 
 ---
 
@@ -48,11 +50,13 @@ For each feature under `src/routes/dashboard/[feature]/`, verify:
 ### ✅ Required Elements
 
 1. **Has `components/` folder**
+
    ```bash
    ls -la src/routes/dashboard/[feature]/components/
    ```
 
 2. **If has modals, check modal pattern:**
+
    ```bash
    ls -la src/routes/dashboard/[feature]/components/modals/
    # Should contain: modal-state.svelte.ts
@@ -66,12 +70,14 @@ For each feature under `src/routes/dashboard/[feature]/`, verify:
 ### ❌ Common Violations
 
 1. **Components in route root** (should be in `components/`)
+
    ```bash
    # Check for .svelte files directly in feature root
    ls src/routes/dashboard/[feature]/*.svelte
    ```
 
 2. **Modal prop drilling** (should use centralized state)
+
    - Check for `bind:open` in modal components
    - Check for `$bindable()` props in modals
 
@@ -86,15 +92,18 @@ For each feature under `src/routes/dashboard/[feature]/`, verify:
 Create a report with:
 
 ### Compliance Summary
+
 ```markdown
 ## Project Structure Audit
 
 **Overall Status**: [Pass/Fail]
 
 ### Compliant Features ✅
+
 - feature-name: All standards met
 
 ### Non-Compliant Features ❌
+
 - feature-name: Missing components/ folder
 - feature-name: Components in route root
 - feature-name: Modal using prop drilling
@@ -116,14 +125,17 @@ For each violation, provide:
 Categorize violations by severity:
 
 ### 🔴 Critical Issues (Fix Immediately)
+
 - Modal prop drilling (breaks team pattern)
 - Components in wrong location (breaks structure)
 
 ### 🟡 Important Issues (Fix Soon)
+
 - Non-standard folder names
 - Missing centralized modal state
 
 ### 🟢 Minor Issues (Fix Eventually)
+
 - File naming conventions
 - Missing optional folders
 
@@ -131,12 +143,10 @@ Categorize violations by severity:
 
 ## Example Audit Output
 
-```markdown
+````markdown
 # Project Structure Audit Report
 
-**Project**: ClarityCover Dashboard
-**Date**: 2025-11-24
-**Status**: ⚠️ Issues Found
+**Project**: ClarityCover Dashboard **Date**: 2025-11-24 **Status**: ⚠️ Issues Found
 
 ---
 
@@ -165,13 +175,15 @@ Categorize violations by severity:
 </script>
 <EditModal bind:open={modalOpen} />
 ```
+````
 
 **Fix**: Use centralized modal state pattern.
 
 1. Create `src/routes/dashboard/retailers/components/modals/modal-state.svelte.ts`:
+
    ```typescript
    export const modals = $state({
-     edit: { visible: false, retailerId: null }
+     edit: { visible: false, retailerId: null },
    });
    ```
 
@@ -202,11 +214,12 @@ mv src/routes/dashboard/users/UserCard.svelte src/routes/dashboard/users/compone
 ```
 
 Then update all imports:
+
 ```typescript
 // Change from:
-import UserCard from './UserCard.svelte';
+import UserCard from "./UserCard.svelte";
 // To:
-import UserCard from './components/UserCard.svelte';
+import UserCard from "./components/UserCard.svelte";
 ```
 
 **Reference**: [`.claude/docs/standards/folder-structure.md`](../.claude/docs/standards/folder-structure.md#feature-route-structure-mandatory-pattern)
@@ -224,6 +237,7 @@ import UserCard from './components/UserCard.svelte';
 **Fix**: Rename to standard folder name or move contents.
 
 If it contains components:
+
 ```bash
 mv src/routes/dashboard/claims/stuff/* src/routes/dashboard/claims/components/
 rmdir src/routes/dashboard/claims/stuff
@@ -259,10 +273,12 @@ The following features fully comply with team standards:
 ## Recommendations
 
 1. **Immediate Actions**:
+
    - Fix modal prop drilling in retailers (Critical)
    - Move UserCard.svelte to components/ (Critical)
 
 2. **Short Term**:
+
    - Rename non-standard folders
    - Add missing modal-state files
 
@@ -278,6 +294,7 @@ The following features fully comply with team standards:
 2. Assign team members to fix issues
 3. Re-run audit after fixes
 4. Update team documentation if needed
+
 ```
 
 ---
@@ -305,3 +322,4 @@ After reviewing structure:
 - Use `/create-modal` to fix modal violations
 - Use `/create-table` to fix table violations
 - Use `/review-component` to check individual components
+```
