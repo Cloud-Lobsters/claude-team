@@ -1,0 +1,209 @@
+[
+	{
+		"file": ".github/docs/superform/doc_api_features_global-filtering.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_column-visibility.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_row-selection.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_sorting.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_framework_svelte_examples_column-ordering.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_global-faceting.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_row-selection.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_core_header-group.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_column-filtering.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_framework_svelte_examples_column-groups.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_row-pinning.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_introduction#what-is-headless-ui.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_column-defs.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_installation.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_framework_svelte_examples_sorting.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_pagination.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_overview.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_expanding.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_framework.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_column-filtering.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_custom-features.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_column-ordering.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_core_column.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_introduction#which-kind-of-table-library-should-i-use.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_framework_svelte_guide_table-state.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_introduction#headless-table-libraries.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_tables.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_core_row.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_sorting.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_column-visibility.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_virtualization.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_row-pinning.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_fuzzy-filtering.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_enterprise_ag-grid.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_faq.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_introduction#component-based-table-libraries.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_core_header.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_expanding.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_rows.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_column-sizing.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_framework_svelte_svelte-table.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_pagination.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_core_table.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_column-faceting.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_grouping.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_column-faceting.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_column-sizing.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_framework_svelte_examples_column-visibility.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_grouping.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_migrating.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_header-groups.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_introduction#component-based-libraries-vs-headless-libraries.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_global-filtering.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_headers.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_column-pinning.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_introduction.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_framework_svelte_examples_filtering.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_core_cell.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_core_column-def.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_global-faceting.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_framework_svelte_examples_column-pinning.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_columns.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_api_features_column-pinning.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_column-ordering.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_framework_svelte_examples_basic.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_data.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_contributors.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_cells.md"
+	},
+	{
+		"file": ".github/docs/superform/doc_guide_row-models.md"
+	}
+]
