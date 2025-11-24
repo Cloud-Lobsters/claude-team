@@ -222,13 +222,66 @@ pnpm lint             # Check code formatting
 ### As a Git Submodule
 This repository is designed to be used as a Git submodule named `.claude`:
 
+#### Initial Setup (First Time)
+
 ```bash
-# Add to your project
+# 1. Navigate to your project root
+cd /path/to/your/project
+
+# 2. Add the submodule
 git submodule add https://github.com/Cloud-Lobsters/.claude.git .claude
 
-# Update to latest
+# 3. Commit the submodule
+git add .gitmodules .claude
+git commit -m "feat: add .claude team standards submodule"
+
+# 4. (Optional) Add sync scripts to package.json
+# Add these to your package.json scripts:
+{
+  "scripts": {
+    "claude:pull": "bash .claude/scripts/pull.sh",
+    "claude:push": "bash .claude/scripts/push.sh"
+  }
+}
+```
+
+#### Cloning a Project with the Submodule
+
+When cloning a project that already has this submodule:
+
+```bash
+# Option 1: Clone with submodules
+git clone --recurse-submodules <repository-url>
+
+# Option 2: Clone first, then init submodules
+git clone <repository-url>
+cd <repository>
+git submodule update --init --recursive
+```
+
+#### Updating to Latest Standards
+
+```bash
+# Pull latest team standards
+pnpm claude:pull
+# OR manually:
 cd .claude && git pull origin main && cd ..
-git add .claude && git commit -m "chore: update shared Claude standards"
+git add .claude && git commit -m "chore: update .claude submodule"
+```
+
+#### Contributing Changes Back to Team Standards
+
+```bash
+# After editing files in .claude/
+pnpm claude:push "feat: add new pattern"
+# OR manually:
+cd .claude
+git add -A
+git commit -m "feat: add new pattern"
+git push origin main
+cd ..
+git add .claude
+git commit -m "chore: update .claude submodule"
 ```
 
 ### Commands
