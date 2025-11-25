@@ -366,7 +366,7 @@ if (body.phone) {
 
 ## Related Patterns
 
-- **Modal Pattern**: Uses centralized modal state (see `/create-modal` command)
+- **Modal Pattern**: Uses centralized modal state (see `/cmd-create-modal` command)
 - **Form Pattern**: Could integrate with Superforms for validation
 - **Toast Pattern**: Uses svelte-sonner for notifications
 

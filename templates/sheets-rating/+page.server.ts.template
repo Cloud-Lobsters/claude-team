@@ -1,0 +1,27 @@
+import type { Actions } from './$types';
+import { SHEET_CONFIG } from './sheets-config';
+import { calculateFromSheet, type CellMapping } from './sheets-calculator';
+
+export const actions: Actions = {
+	calculate: async ({ request }) => {
+		const formData = await request.formData();
+
+		const cellMappings: CellMapping[] = [];
+
+		// Map all fields - pass raw values to sheet
+		for (const [field, cell] of Object.entries(SHEET_CONFIG.inputs)) {
+			const value = formData.get(field);
+			cellMappings.push({ field, cell, value: String(value ?? '') });
+		}
+
+		// Calculate from Google Sheets
+		const result = await calculateFromSheet(cellMappings);
+
+		return {
+			success: result.success,
+			mappings: cellMappings,
+			outputs: result.outputs,
+			error: result.error,
+		};
+	},
+};

@@ -23,6 +23,9 @@ Workflow shortcuts available via `/` prefix in Claude Code:
 - **`/cmd-review-structure`** - Audit project folder structure against team standards
   - See: [`commands/cmd-review-structure.md`](commands/cmd-review-structure.md)
 
+- **`/cmd-create-sheets-rating`** - Wire up Google Sheets-based rating engine
+  - See: [`commands/cmd-create-sheets-rating.md`](commands/cmd-create-sheets-rating.md)
+
 ---
 
 ## Component Patterns
@@ -79,6 +82,40 @@ Use SvelteKit Superforms for type-safe form handling with validation.
 **Full Implementation Guide:** Use `/cmd-create-form` command
 
 **Reference Documentation:** [`docs/reference/superform/`](docs/reference/superform/)
+
+---
+
+### Sheets Rating Pattern (Google Sheets API)
+
+Use Google Sheets as a rating engine for complex insurance calculations that business users need to modify.
+
+**Key Principles:**
+- Google Sheet contains calculation formulas
+- Yellow cells = inputs (written by code)
+- "fieldName" column maps cells to form fields
+- Screenshot must show URL (with spreadsheet ID) and sheet tab name
+- Server writes inputs, reads calculated outputs
+- Business users update formulas without code changes
+
+**Setup Process:**
+1. Decide: Reuse existing service account or create new one?
+   - **Reuse:** Same app, same environment → faster setup
+   - **Create new:** Different environment/security domain → better isolation
+2. Take screenshots of sheet showing:
+   - **Input screenshot:** URL bar, sheet tab, yellow cells, fieldName column
+   - **Output screenshot:** Calculated cells with formulas and descriptions
+   - (Can be one combined screenshot if everything fits)
+3. Use `/cmd-create-sheets-rating` command
+4. Command validates screenshots and extracts configuration
+5. Claude generates all files with spreadsheet ID, sheet name, and cell mappings
+6. Configure service account (reuse or create) and share spreadsheet
+7. Deploy and test
+
+**Full Implementation Guide:** Use `/cmd-create-sheets-rating` command
+
+**Reference Documentation:** [`docs/reference/google-sheets-rating/`](docs/reference/google-sheets-rating/)
+
+**Example Implementation:** See `/faces` route
 
 ---
 

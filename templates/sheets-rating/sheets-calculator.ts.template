@@ -1,0 +1,108 @@
+import { google } from 'googleapis';
+import { SHEET_CONFIG } from './sheets-config';
+import { env } from '$env/dynamic/private';
+
+// Initialize the sheets client
+let sheetsClient: any = null;
+
+async function getSheetsClient() {
+	if (sheetsClient) return sheetsClient;
+
+	const auth = new google.auth.GoogleAuth({
+		credentials: {
+			client_email: env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
+			private_key: env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, '\n'),
+		},
+		scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+	});
+
+	sheetsClient = google.sheets({ version: 'v4', auth });
+	return sheetsClient;
+}
+
+export interface CellMapping {
+	field: string;
+	cell: string;
+	value: string;
+}
+
+export interface CalculationResult {
+	success: boolean;
+	outputs?: Record<string, number>;
+	error?: string;
+}
+
+/**
+ * Write input values to the Google Sheet
+ */
+export async function writeInputsToSheet(mappings: CellMapping[]): Promise<boolean> {
+	const sheets = await getSheetsClient();
+
+	// Prepare batch update data
+	const data = mappings.map((mapping) => ({
+		range: `${SHEET_CONFIG.sheetName}!${mapping.cell}`,
+		values: [[mapping.value]],
+	}));
+
+	await sheets.spreadsheets.values.batchUpdate({
+		spreadsheetId: env.GOOGLE_SHEETS_{{PRODUCT_UPPER}}_RATING_ID,
+		requestBody: {
+			valueInputOption: 'USER_ENTERED',
+			data,
+		},
+	});
+
+	return true;
+}
+
+/**
+ * Read calculated output values from the Google Sheet
+ */
+export async function readOutputsFromSheet(): Promise<Record<string, number>> {
+	const sheets = await getSheetsClient();
+
+	// Get all output cell ranges
+	const ranges = Object.entries(SHEET_CONFIG.outputs).map(
+		([_, cell]) => `${SHEET_CONFIG.sheetName}!${cell}`
+	);
+
+	const response = await sheets.spreadsheets.values.batchGet({
+		spreadsheetId: env.GOOGLE_SHEETS_{{PRODUCT_UPPER}}_RATING_ID,
+		ranges,
+	});
+
+	// Parse the results
+	const outputs: Record<string, number> = {};
+	const outputKeys = Object.keys(SHEET_CONFIG.outputs);
+
+	response.data.valueRanges?.forEach((range: any, index: number) => {
+		const key = outputKeys[index];
+		const value = range.values?.[0]?.[0];
+		outputs[key] = typeof value === 'number' ? value : parseFloat(value) || 0;
+	});
+
+	return outputs;
+}
+
+/**
+ * Calculate premium by writing inputs and reading outputs
+ */
+export async function calculateFromSheet(mappings: CellMapping[]): Promise<CalculationResult> {
+	try {
+		// Write inputs
+		await writeInputsToSheet(mappings);
+
+		// Read outputs (formulas recalculate instantly on write)
+		const outputs = await readOutputsFromSheet();
+
+		return {
+			success: true,
+			outputs,
+		};
+	} catch (error: any) {
+		return {
+			success: false,
+			error: error.message || 'Failed to calculate from sheet',
+		};
+	}
+}

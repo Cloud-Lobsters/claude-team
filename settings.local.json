@@ -6,7 +6,7 @@
       "Bash(git push:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(cat:*)", 
+      "Bash(cat:*)",
       "Bash(rg:*)",
       "Bash(timeout:*)",
       "Bash(true)",
@@ -20,14 +20,16 @@
       "Bash(pnpm prisma:*)",
       "Bash(pnpm dlx:*)",
       "Bash(psql:*)",
-      "Bash(npx:*)"
+      "Bash(npx:*)",
+      "modify .md files"
     ],
     "deny": [],
     "ask": [
-      "Bash(rm:*)"]
+      "Bash(rm:*)"
+    ]
   },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "svelte"
-  ],
-  "enableAllProjectMcpServers": true
+  ]
 }
