@@ -8,20 +8,20 @@ This repository contains shared Claude Code patterns, commands, and documentatio
 
 Workflow shortcuts available via `/` prefix in Claude Code:
 
-- **`/create-modal`** - Create modal component with centralized state pattern
-  - See: [`commands/create-modal.md`](commands/create-modal.md)
+- **`/cmd-create-modal`** - Create modal component with centralized state pattern
+  - See: [`commands/cmd-create-modal.md`](commands/cmd-create-modal.md)
 
-- **`/create-table`** - Create table component with TanStack Table Core
-  - See: [`commands/create-table.md`](commands/create-table.md)
+- **`/cmd-create-table`** - Create table component with TanStack Table Core
+  - See: [`commands/cmd-create-table.md`](commands/cmd-create-table.md)
 
-- **`/create-form`** - Create form component with Superforms validation
-  - See: [`commands/create-form.md`](commands/create-form.md)
+- **`/cmd-create-form`** - Create form component with Superforms validation
+  - See: [`commands/cmd-create-form.md`](commands/cmd-create-form.md)
 
-- **`/review-component`** - Review component against team patterns
-  - See: [`commands/review-component.md`](commands/review-component.md)
+- **`/cmd-review-component`** - Review component against team patterns
+  - See: [`commands/cmd-review-component.md`](commands/cmd-review-component.md)
 
-- **`/review-structure`** - Audit project folder structure against team standards
-  - See: [`commands/review-structure.md`](commands/review-structure.md)
+- **`/cmd-review-structure`** - Audit project folder structure against team standards
+  - See: [`commands/cmd-review-structure.md`](commands/cmd-review-structure.md)
 
 ---
 
@@ -37,7 +37,7 @@ Use centralized modal state management to avoid prop drilling.
 - Open modals from anywhere by updating modal state
 - Clean up state when modals close
 
-**Full Implementation Guide:** Use `/create-modal` command
+**Full Implementation Guide:** Use `/cmd-create-modal` command
 
 **Anti-Patterns:**
 - ❌ Don't use `$bindable()` props
@@ -60,7 +60,7 @@ Use TanStack Table Core for client-side filtering and sorting.
 - Server-side pagination for > 10k rows
 - Use global search + column filters
 
-**Full Implementation Guide:** Use `/create-table` command
+**Full Implementation Guide:** Use `/cmd-create-table` command
 
 **Reference Documentation:** [`docs/reference/tanstack-tables/`](docs/reference/tanstack-tables/)
 
@@ -76,7 +76,7 @@ Use SvelteKit Superforms for type-safe form handling with validation.
 - Client uses `superForm()` for reactivity
 - Type-safe throughout
 
-**Full Implementation Guide:** Use `/create-form` command
+**Full Implementation Guide:** Use `/cmd-create-form` command
 
 **Reference Documentation:** [`docs/reference/superform/`](docs/reference/superform/)
 
@@ -152,7 +152,7 @@ All projects must follow the standard folder structure defined in [`docs/standar
 - Use standard folder names: `components/`, `stores/`, `utils/`, `api/`
 - Use `kebab-case` for all file names
 
-**Enforcement**: Use `/review-structure` command to audit projects
+**Enforcement**: Use `/cmd-review-structure` command to audit projects
 
 ### SvelteKit Routing
 - Use `+page.svelte` for pages

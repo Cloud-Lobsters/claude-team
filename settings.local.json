@@ -10,7 +10,6 @@
       "Bash(rg:*)",
       "Bash(timeout:*)",
       "Bash(true)",
-      "Bash(rm:*)",
       "Bash(find:*)",
       "Bash(curl:*)",
       "Bash(pnpm check:*)",
@@ -24,7 +23,8 @@
       "Bash(npx:*)"
     ],
     "deny": [],
-    "ask": []
+    "ask": [
+      "Bash(rm:*)"]
   },
   "enabledMcpjsonServers": [
     "svelte"
