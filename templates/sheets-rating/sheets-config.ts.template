@@ -1,0 +1,26 @@
+// Google Sheets configuration for {{PRODUCT_NAME}} calculator
+// Spreadsheet ID: {{SPREADSHEET_ID}} (extracted from screenshot)
+// Sheet: {{SHEET_NAME}} (extracted from screenshot)
+//
+// Input cells (yellow) are mapped to form field names via "fieldName" column
+// Output cells contain calculated values after formulas run
+
+export interface SheetConfig {
+	sheetName: string;
+	inputs: Record<string, string>;
+	outputs: Record<string, string>;
+}
+
+export const SHEET_CONFIG: SheetConfig = {
+	sheetName: '{{SHEET_NAME}}',
+
+	inputs: {
+		// Extracted from screenshot - yellow cells + fieldName column
+		{{INPUT_MAPPINGS}}
+	},
+
+	outputs: {
+		// User-specified calculation outputs
+		{{OUTPUT_MAPPINGS}}
+	},
+};

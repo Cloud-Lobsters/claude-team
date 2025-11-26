@@ -1,0 +1,305 @@
+[
+    {
+        "file": ".github/docs/superform/docmermaid_landing_.md"
+    },
+    {
+        "file": ".github/docs/superform/docage_mermaid.md"
+    },
+    {
+        "file": ".github/docs/superform/docity_new-diagram.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaid_issues_866.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaid_tree_develop_packages_tiny.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_gitgraph.html.md"
+    },
+    {
+        "file": ".github/docs/superform/docgetting-started.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#development-installation.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#class-diagram.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#contributors.md"
+    },
+    {
+        "file": ".github/docs/superform/docnnouncements.html.md"
+    },
+    {
+        "file": ".github/docs/superform/docage_npm_mermaid.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_directives.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaid_edit_develop_packages_mermaid_src_docs_intro_index.md.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_treemap.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#appreciation.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#quadrant-chart.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_sankey.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#requirements.md"
+    },
+    {
+        "file": ".github/docs/superform/docagre-d3.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#request-for-assistance.md"
+    },
+    {
+        "file": ".github/docs/superform/docmermaid-parcel-demo.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_c4.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doctem_integrations-community.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_classDiagram.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_xyChart.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_pie.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaid_actions_workflows_build.yml.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_architecture.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_quadrantChart.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#VPContent.md"
+    },
+    {
+        "file": ".github/docs/superform/docity_intro.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#about-mermaid.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_configuration.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaid.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_sequenceDiagram.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_faq.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaid-cli.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaid_issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%21%22.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#diagram-types.md"
+    },
+    {
+        "file": ".github/docs/superform/docsyntax-reference.html.md"
+    },
+    {
+        "file": ".github/docs/superform/docity_questions-and-suggestions.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaidCLI.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_packet.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#reporting-vulnerabilities.md"
+    },
+    {
+        "file": ".github/docs/superform/docpt_#nominees.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_entityRelationshipDiagram.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_schema-docs_config.html.md"
+    },
+    {
+        "file": ".github/docs/superform/docmermaid-webpack-demo.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_stateDiagram.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_accessibility.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#mermaid-api.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mindmap.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#security-and-safe-diagrams.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_gantt.html.md"
+    },
+    {
+        "file": ".github/docs/superform/docmermaid@11.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaid-live-editor.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#installation.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaid_graphs_contributors.md"
+    },
+    {
+        "file": ".github/docs/superform/doclog.html.md"
+    },
+    {
+        "file": ".github/docs/superform/docermaid-js_mermaid?branch=master.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_zenuml.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#git-graph.md"
+    },
+    {
+        "file": ".github/docs/superform/docquence-diagrams.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_timeline.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_requirementDiagram.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_kanban.html.md"
+    },
+    {
+        "file": ".github/docs/superform/docity_contributing.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#cdn.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#deploying-mermaid.md"
+    },
+    {
+        "file": ".github/docs/superform/doctem_mermaid-chart.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doctem_integrations-create.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#sibling-projects.md"
+    },
+    {
+        "file": ".github/docs/superform/docguide_integrations.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#release.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#flowchart.md"
+    },
+    {
+        "file": ".github/docs/superform/doc.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_flowchart.html?id=flowcharts-basic-syntax.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_flowchart.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_radar.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_userJourney.html.md"
+    },
+    {
+        "file": ".github/docs/superform/docmermaid-ai?utm_source=mermaid_js&utm_medium=banner_ad&utm_campaign=aibundle.md"
+    },
+    {
+        "file": ".github/docs/superform/doctem_tutorials.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_icons.html.md"
+    },
+    {
+        "file": ".github/docs/superform/docrce=mermaid&utm_campaign=oss.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#xy-chart.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_setup_README.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_examples.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#sequence-diagram.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_theming.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#gantt-diagram.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#lint.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_block.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#user-journey-diagram.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_mermaid_releases.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_math.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#entity-relationship-diagram-experimental.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#test.md"
+    },
+    {
+        "file": ".github/docs/superform/docity_security.html.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_usage.html.md"
+    }
+]

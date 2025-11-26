@@ -8,8 +8,8 @@ Audit the current project's folder structure against Cloud Lobsters team standar
 
 **Usage:**
 
-- `/review-structure` - Review entire project structure
-- `/review-structure src/routes/dashboard/claims` - Review specific feature
+- `/cmd-review-structure` - Review entire project structure
+- `/cmd-review-structure src/routes/dashboard/claims` - Review specific feature
 
 **Arguments:**
 
@@ -196,7 +196,7 @@ Categorize violations by severity:
    <Dialog.Root bind:open={modals.edit.visible}>
    ```
 
-**Reference**: [`.claude/commands/create-modal.md`](../.claude/commands/create-modal.md)
+**Reference**: [`.claude/commands/cmd-create-modal.md`](../.claude/commands/cmd-create-modal.md)
 
 ---
 
@@ -255,7 +255,7 @@ rmdir src/routes/dashboard/claims/stuff
 
 **Fix**: Create modal state file following team pattern.
 
-**Reference**: [`.claude/commands/create-modal.md`](../.claude/commands/create-modal.md)
+**Reference**: [`.claude/commands/cmd-create-modal.md`](../.claude/commands/cmd-create-modal.md)
 
 ---
 
@@ -319,7 +319,7 @@ The following features fully comply with team standards:
 
 After reviewing structure:
 
-- Use `/create-modal` to fix modal violations
-- Use `/create-table` to fix table violations
-- Use `/review-component` to check individual components
+- Use `/cmd-create-modal` to fix modal violations
+- Use `/cmd-create-table` to fix table violations
+- Use `/cmd-review-component` to check individual components
 ```

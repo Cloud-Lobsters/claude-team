@@ -8,20 +8,23 @@ This repository contains shared Claude Code patterns, commands, and documentatio
 
 Workflow shortcuts available via `/` prefix in Claude Code:
 
-- **`/create-modal`** - Create modal component with centralized state pattern
-  - See: [`commands/create-modal.md`](commands/create-modal.md)
+- **`/cmd-create-modal`** - Create modal component with centralized state pattern
+  - See: [`commands/cmd-create-modal.md`](commands/cmd-create-modal.md)
 
-- **`/create-table`** - Create table component with TanStack Table Core
-  - See: [`commands/create-table.md`](commands/create-table.md)
+- **`/cmd-create-table`** - Create table component with TanStack Table Core
+  - See: [`commands/cmd-create-table.md`](commands/cmd-create-table.md)
 
-- **`/create-form`** - Create form component with Superforms validation
-  - See: [`commands/create-form.md`](commands/create-form.md)
+- **`/cmd-create-form`** - Create form component with Superforms validation
+  - See: [`commands/cmd-create-form.md`](commands/cmd-create-form.md)
 
-- **`/review-component`** - Review component against team patterns
-  - See: [`commands/review-component.md`](commands/review-component.md)
+- **`/cmd-review-component`** - Review component against team patterns
+  - See: [`commands/cmd-review-component.md`](commands/cmd-review-component.md)
 
-- **`/review-structure`** - Audit project folder structure against team standards
-  - See: [`commands/review-structure.md`](commands/review-structure.md)
+- **`/cmd-review-structure`** - Audit project folder structure against team standards
+  - See: [`commands/cmd-review-structure.md`](commands/cmd-review-structure.md)
+
+- **`/cmd-create-sheets-rating`** - Wire up Google Sheets-based rating engine
+  - See: [`commands/cmd-create-sheets-rating.md`](commands/cmd-create-sheets-rating.md)
 
 ---
 
@@ -37,7 +40,7 @@ Use centralized modal state management to avoid prop drilling.
 - Open modals from anywhere by updating modal state
 - Clean up state when modals close
 
-**Full Implementation Guide:** Use `/create-modal` command
+**Full Implementation Guide:** Use `/cmd-create-modal` command
 
 **Anti-Patterns:**
 - ❌ Don't use `$bindable()` props
@@ -60,7 +63,7 @@ Use TanStack Table Core for client-side filtering and sorting.
 - Server-side pagination for > 10k rows
 - Use global search + column filters
 
-**Full Implementation Guide:** Use `/create-table` command
+**Full Implementation Guide:** Use `/cmd-create-table` command
 
 **Reference Documentation:** [`docs/reference/tanstack-tables/`](docs/reference/tanstack-tables/)
 
@@ -76,9 +79,43 @@ Use SvelteKit Superforms for type-safe form handling with validation.
 - Client uses `superForm()` for reactivity
 - Type-safe throughout
 
-**Full Implementation Guide:** Use `/create-form` command
+**Full Implementation Guide:** Use `/cmd-create-form` command
 
 **Reference Documentation:** [`docs/reference/superform/`](docs/reference/superform/)
+
+---
+
+### Sheets Rating Pattern (Google Sheets API)
+
+Use Google Sheets as a rating engine for complex insurance calculations that business users need to modify.
+
+**Key Principles:**
+- Google Sheet contains calculation formulas
+- Yellow cells = inputs (written by code)
+- "fieldName" column maps cells to form fields
+- Screenshot must show URL (with spreadsheet ID) and sheet tab name
+- Server writes inputs, reads calculated outputs
+- Business users update formulas without code changes
+
+**Setup Process:**
+1. Decide: Reuse existing service account or create new one?
+   - **Reuse:** Same app, same environment → faster setup
+   - **Create new:** Different environment/security domain → better isolation
+2. Take screenshots of sheet showing:
+   - **Input screenshot:** URL bar, sheet tab, yellow cells, fieldName column
+   - **Output screenshot:** Calculated cells with formulas and descriptions
+   - (Can be one combined screenshot if everything fits)
+3. Use `/cmd-create-sheets-rating` command
+4. Command validates screenshots and extracts configuration
+5. Claude generates all files with spreadsheet ID, sheet name, and cell mappings
+6. Configure service account (reuse or create) and share spreadsheet
+7. Deploy and test
+
+**Full Implementation Guide:** Use `/cmd-create-sheets-rating` command
+
+**Reference Documentation:** [`docs/reference/google-sheets-rating/`](docs/reference/google-sheets-rating/)
+
+**Example Implementation:** See `/faces` route
 
 ---
 
@@ -152,7 +189,7 @@ All projects must follow the standard folder structure defined in [`docs/standar
 - Use standard folder names: `components/`, `stores/`, `utils/`, `api/`
 - Use `kebab-case` for all file names
 
-**Enforcement**: Use `/review-structure` command to audit projects
+**Enforcement**: Use `/cmd-review-structure` command to audit projects
 
 ### SvelteKit Routing
 - Use `+page.svelte` for pages
@@ -184,6 +221,7 @@ Located in [`docs/reference/`](docs/reference/):
 - **shadcn-svelte** - [`docs/reference/shadcn-svelte/`](docs/reference/shadcn-svelte/) (54 component docs)
 - **Superforms** - [`docs/reference/superform/`](docs/reference/superform/) (17 guides)
 - **TanStack Tables** - [`docs/reference/tanstack-tables/`](docs/reference/tanstack-tables/) (70 API docs)
+- **Mermaid.js** - [`docs/reference/mermaid_js/`](docs/reference/mermaid_js/) (Diagram syntax and configuration)
 
 ### Standards Documentation
 Located in [`docs/standards/`](docs/standards/):
@@ -201,7 +239,8 @@ Located in [`skills/`](skills/):
 
 ### Templates
 Located in [`templates/`](templates/):
-- _Empty - code templates can be added here_
+
+- **Support Modal** - [`templates/support-modal/`](templates/support-modal/) (Slack-integrated user support system)
 
 ---
 

@@ -665,5 +665,5 @@ function handleOpenModal(item: Type) {
 ## References
 
 - [TanStack Table Core Docs](https://tanstack.com/table/v8/docs/guide/column-defs)
-- [Team Modal Pattern](../../commands/create-modal.md)
+- [Team Modal Pattern](../../commands/cmd-create-modal.md)
 - [Team Folder Structure](../standards/folder-structure.md)

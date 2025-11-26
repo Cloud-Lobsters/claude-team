@@ -5,9 +5,31 @@
       "Bash(chmod:*)",
       "Bash(git push:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(cat:*)",
+      "Bash(rg:*)",
+      "Bash(timeout:*)",
+      "Bash(true)",
+      "Bash(find:*)",
+      "Bash(curl:*)",
+      "Bash(pnpm check:*)",
+      "Bash(pnpm check:*)",
+      "Bash(pnpm prisma generate:*)",
+      "Bash(pnpm db:seed:*)",
+      "Bash(pnpm prisma migrate dev:*)",
+      "Bash(pnpm prisma:*)",
+      "Bash(pnpm dlx:*)",
+      "Bash(psql:*)",
+      "Bash(npx:*)",
+      "modify .md files"
     ],
     "deny": [],
-    "ask": []
-  }
+    "ask": [
+      "Bash(rm:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "svelte"
+  ]
 }

@@ -156,7 +156,7 @@ export const modals = $state({
 });
 ```
 
-**Reference**: See [`.claude/commands/create-modal.md`](../../commands/create-modal.md) for full implementation guide.
+**Reference**: See [`.claude/commands/cmd-create-modal.md`](../../commands/cmd-create-modal.md) for full implementation guide.
 
 ---
 
@@ -179,7 +179,7 @@ When a feature has tables with filtering:
     └── filter-manager.ts               # TableFilterManager instance
 ```
 
-**Reference**: See [`.claude/commands/create-table.md`](../../commands/create-table.md) for full implementation guide.
+**Reference**: See [`.claude/commands/cmd-create-table.md`](../../commands/cmd-create-table.md) for full implementation guide.
 
 ---
 
@@ -349,7 +349,7 @@ When creating a new feature under `src/routes/dashboard/[feature]/`:
 
 ## Related Documentation
 
-- [Modal Pattern](../../commands/create-modal.md) - How to create modals
-- [Table Pattern](../../commands/create-table.md) - How to create tables
-- [Form Pattern](../../commands/create-form.md) - How to create forms
+- [Modal Pattern](../../commands/cmd-create-modal.md) - How to create modals
+- [Table Pattern](../../commands/cmd-create-table.md) - How to create tables
+- [Form Pattern](../../commands/cmd-create-form.md) - How to create forms
 - [Team Standards](../../CLAUDE.md) - Overall team patterns and practices
