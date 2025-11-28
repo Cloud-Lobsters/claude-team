@@ -215,6 +215,7 @@ All projects must follow the standard folder structure defined in [`docs/standar
 ### Framework Documentation
 Located in [`docs/reference/`](docs/reference/):
 
+- **Auth.js** - [`docs/reference/authjs/`](docs/reference/authjs/) (281 reference docs including SvelteKit integration)
 - **Svelte 5** - [`docs/reference/svelte-5/migration-guide.md`](docs/reference/svelte-5/migration-guide.md)
 - **Svelte MCP Server** - [`docs/reference/svelte-mcp-server.md`](docs/reference/svelte-mcp-server.md) (How to use MCP tools)
 - **TanStack Table Implementation** - [`docs/reference/tanstack-table-implementation.md`](docs/reference/tanstack-table-implementation.md) (Complete implementation guide)

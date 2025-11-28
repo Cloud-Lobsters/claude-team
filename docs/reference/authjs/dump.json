@@ -1,0 +1,845 @@
+[
+    {
+        "file": ".github/docs/superform/dociders_notion.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#cause.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_mattermost.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_onelogin.md"
+    },
+    {
+        "file": ".github/docs/superform/docrt_client.md"
+    },
+    {
+        "file": ".github/docs/superform/docib.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_spotify.md"
+    },
+    {
+        "file": ".github/docs/superform/docdapter.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_actions.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#err.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_nodemailer.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#properties-4.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#provider.md"
+    },
+    {
+        "file": ".github/docs/superform/docapter_lib_graphql_fragments.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#extended-by.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_gitlab.md"
+    },
+    {
+        "file": ".github/docs/superform/docr.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#indexable-1.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_logto.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#type-1.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_roblox.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_patreon.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#extends-4.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#signing-in-and-signing-out.md"
+    },
+    {
+        "file": ".github/docs/superform/docxt.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_asgardeo.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_webex.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#see-2.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_tiktok.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_vk.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_ping-id.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_pipedrive.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#autherror.md"
+    },
+    {
+        "file": ".github/docs/superform/docddleware.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-8.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_postmark.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_netsuite.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#user-1.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-12.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#expires.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_united-effects.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_forwardemail.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_nextcloud.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#token_type.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-11.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_azure-devops.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_zoho.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_authentik.md"
+    },
+    {
+        "file": ".github/docs/superform/docs#id.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#user-2.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_hubspot.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_yandex.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_box.md"
+    },
+    {
+        "file": ".github/docs/superform/doct.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#expires_in.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#authorization_details.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_instagram.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#session.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#properties-5.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_strava.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#parameters.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-1.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#preferred_username.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_mailru.md"
+    },
+    {
+        "file": ".github/docs/superform/doc-adapter_lib_entities.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_microsoft-entra-id.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#see-1.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#phone_number.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#birthdate.md"
+    },
+    {
+        "file": ".github/docs/superform/docpter.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_slack.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#zoneinfo.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#user.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#indexable.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#name-1.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders.md"
+    },
+    {
+        "file": ".github/docs/superform/doccations-for-authentication.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#image.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#extends-3.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#updated_at.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_twitch.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_workos.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#locale.md"
+    },
+    {
+        "file": ".github/docs/superform/docdapter_lib_pg.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#given_name.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_mailgun.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_line.md"
+    },
+    {
+        "file": ".github/docs/superform/docrs.md"
+    },
+    {
+        "file": ".github/docs/superform/docs#name-1.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-5.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#client-side.md"
+    },
+    {
+        "file": ".github/docs/superform/docdapters.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_eveonline.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_auth0.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_types#basepath.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#email.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#properties-2.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-6.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_salesforce.md"
+    },
+    {
+        "file": ".github/docs/superform/docters#adapteruser.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#server-side.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_medium.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#scope.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_huggingface.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_azure-ad.md"
+    },
+    {
+        "file": ".github/docs/superform/docnv-dynamic-private.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_coinbase.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_simplelogin.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_bitbucket.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_naver.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#code.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#extends-2.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#name.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_osso.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_beyondidentity.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_frontegg.md"
+    },
+    {
+        "file": ".github/docs/superform/docs.md"
+    },
+    {
+        "file": ".github/docs/superform/docs#defaultuser.md"
+    },
+    {
+        "file": ".github/docs/superform/docedis-adapter.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_trakt.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_okta.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#example.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_provider-types.md"
+    },
+    {
+        "file": ".github/docs/superform/docGTND427MCABDL27LCEY4YKQUCWSIL277CVSDVZ3JCABIEKQECKBDE27KCV7DV53LCWSD5KQECESILKQYCYYIC5QKC6SIP27MC67DEK3EHJNCLSIZ.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_kinde.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_cognito.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#customfetch.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_click-up.md"
+    },
+    {
+        "file": ".github/docs/superform/docer.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_keycloak.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_client.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_facebook.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_discord.md"
+    },
+    {
+        "file": ".github/docs/superform/docters.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#gender.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#usage.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#account.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_reddit.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#extends-1.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_42-school.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_env.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_pinterest.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_ory-hydra.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#properties-1.md"
+    },
+    {
+        "file": ".github/docs/superform/docbauthn.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#signout.md"
+    },
+    {
+        "file": ".github/docs/superform/docdapter_utils.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#address.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_osu.md"
+    },
+    {
+        "file": ".github/docs/superform/doct-auth-example.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_kakao.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_concept2.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_threads.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#managing-the-session.md"
+    },
+    {
+        "file": ".github/docs/superform/docs#image.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_linkedin.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_6315.md"
+    },
+    {
+        "file": ".github/docs/superform/docroxyAgent?id=example-basic-proxy-request-with-local-agent-dispatcher.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#type.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#userid.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_mailchimp.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#extends.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#nickname.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_webauthn.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_wechat.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-2.md"
+    },
+    {
+        "file": ".github/docs/superform/docadapter.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#see-4.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#handle.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_dribbble.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#properties.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_passkey.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_atlassian.md"
+    },
+    {
+        "file": ".github/docs/superform/docdapter_entities.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#defaultsession.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#provideraccountid.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#per-path.md"
+    },
+    {
+        "file": ".github/docs/superform/docdapter_lib_mysql.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#see-3.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_wikimedia.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_github.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_todoist.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_email.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#sub.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_bungie.md"
+    },
+    {
+        "file": ".github/docs/superform/docrating-to-v5.md"
+    },
+    {
+        "file": ".github/docs/superform/docter_xata.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#type-2.md"
+    },
+    {
+        "file": ".github/docs/superform/doc.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_netlify.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#profile-1.md"
+    },
+    {
+        "file": ".github/docs/superform/docoxy.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#signin.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_google.md"
+    },
+    {
+        "file": ".github/docs/superform/doch.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_twitter.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_duende-identity-server6.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_descope.md"
+    },
+    {
+        "file": ".github/docs/superform/docact.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_identity-server4.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-3.md"
+    },
+    {
+        "file": ".github/docs/superform/docter.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#notes.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#id.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_fusionauth.md"
+    },
+    {
+        "file": ".github/docs/superform/docles-adapter.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#family_name.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_types#sveltekitauthconfig.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_sendgrid.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_faceit.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_freshbooks.md"
+    },
+    {
+        "file": ".github/docs/superform/doch_issues_new?title=Feedback%20for%20%E2%80%9C%40auth%2Fsveltekit%E2%80%9D&labels=feedback.md"
+    },
+    {
+        "file": ".github/docs/superform/doch_edit_main_docs_pages_reference_sveltekit.mdx.md"
+    },
+    {
+        "file": ".github/docs/superform/docn-rotation#database-strategy.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_credentials.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#lazy-initialization.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_loops.md"
+    },
+    {
+        "file": ".github/docs/superform/docsion-management_login?framework=sveltekit.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_figma.md"
+    },
+    {
+        "file": ".github/docs/superform/docapters.md"
+    },
+    {
+        "file": ".github/docs/superform/docib_http-api-adapters.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_wordpress.md"
+    },
+    {
+        "file": ".github/docs/superform/docs#email.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_boxyhq-saml.md"
+    },
+    {
+        "file": ".github/docs/superform/docdapter_lib_utils.md"
+    },
+    {
+        "file": ".github/docs/superform/doc_JavaScript_Reference_Global_Objects_Error.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#email-1.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-7.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#refresh_token.md"
+    },
+    {
+        "file": ".github/docs/superform/doc-adapter.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_resend.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#handling-authorization.md"
+    },
+    {
+        "file": ".github/docs/superform/doc-adapter_models.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#sveltekitauth.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-4.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#credentialssignin.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_vipps.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_eventbrite.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-9.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#expires_at.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#reach-skip-nav.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#overrides.md"
+    },
+    {
+        "file": ".github/docs/superform/doct-core-1_0.html#StandardClaims.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#properties-3.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#email_verified.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_zoom.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#see.md"
+    },
+    {
+        "file": ".github/docs/superform/docrs#signinerror.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#id-1.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#middle_name.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_battlenet.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_bankid-no.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_zitadel.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#type-declaration.md"
+    },
+    {
+        "file": ".github/docs/superform/docndbook_utility-types.html#partialtype.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#picture.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#profile.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_dropbox.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#expires-1.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_apple.md"
+    },
+    {
+        "file": ".github/docs/superform/docrt_adapters.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#installation.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_azure-ad-b2c.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#inherited-from-10.md"
+    },
+    {
+        "file": ".github/docs/superform/docltekit-auth.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_foursquare.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_passage.md"
+    },
+    {
+        "file": ".github/docs/superform/docdapter_lib_sqlite.md"
+    },
+    {
+        "file": ".github/docs/superform/docviders.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#access_token.md"
+    },
+    {
+        "file": ".github/docs/superform/dociders_mastodon.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#properties-6.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#per-component.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#website.md"
+    },
+    {
+        "file": ".github/docs/superform/docapter.md"
+    },
+    {
+        "file": ".github/docs/superform/docapter_lib_client.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#sveltekitauthconfig.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#returns.md"
+    },
+    {
+        "file": ".github/docs/superform/doc#id_token.md"
+    }
+]

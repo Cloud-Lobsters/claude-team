@@ -1,0 +1,32 @@
+// User Model for Auth.js Integration
+// Add this to your schema.prisma file
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?   // For credentials authentication with bcrypt
+
+  // Optional: Role-based fields
+  isExternal    Boolean   @default(false)  // External users (can be assigned but don't log in)
+  isAdmin       Boolean   @default(false)   // Admin users with elevated privileges
+
+  // Optional: Additional profile fields
+  title         String?   // Job title or role
+  notes         String?   // Additional information
+
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Add your application-specific relationships here
+  // Example:
+  // assignedTodos     TodoUser[]  @relation("AssignedUser")
+  // createdTodos      Todo[]      @relation("TodoCreator")
+
+  @@index([email])
+  @@index([isExternal])
+  @@index([isAdmin])
+  @@map("users")
+}

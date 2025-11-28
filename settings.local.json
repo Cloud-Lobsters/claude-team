@@ -1,32 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git rm:*)",
-      "Bash(chmod:*)",
-      "Bash(git push:*)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
+      "Bash(mkdir:*)",
+      "Bash(pnpm check:*)",
       "Bash(cat:*)",
-      "Bash(rg:*)",
-      "Bash(timeout:*)",
-      "Bash(true)",
-      "Bash(find:*)",
-      "Bash(curl:*)",
-      "Bash(pnpm check:*)",
-      "Bash(pnpm check:*)",
-      "Bash(pnpm prisma generate:*)",
-      "Bash(pnpm db:seed:*)",
-      "Bash(pnpm prisma migrate dev:*)",
-      "Bash(pnpm prisma:*)",
-      "Bash(pnpm dlx:*)",
-      "Bash(psql:*)",
-      "Bash(npx:*)",
-      "modify .md files"
+      "Bash(tree:*)"
     ],
     "deny": [],
-    "ask": [
-      "Bash(rm:*)"
-    ]
+    "ask": []
   },
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
